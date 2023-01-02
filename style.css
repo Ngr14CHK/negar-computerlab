@@ -29,12 +29,13 @@ html{
     padding-top: 10px;
 }
 
-song and the song writers -> {
+.song{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 
-song writers -> {
+.songwriters{
     color: #666666;
     font-size: smaller;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
