@@ -63,18 +63,34 @@ img:hover{
     transition: 0.3s;
 }
 
-.play,
-.back,
-.for{
+.time{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 235px;
+}
+
+.play,.back,.for{
     border-color: #ffffff;
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    margin-inline: 10px;
+    margin-top: 5px;
 }
 
-
-.back
-.for
-.play while mouseover -> {
+.back, .for, .play:hover{
     border-color: #bebebe;
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 0px;
 }
