@@ -16,10 +16,12 @@ html{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 100px;
+    box-shadow: 2px 2px 20px 2px #3f3f3f;
 }
 
 .bigpart:hover{
    background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+   transition: 0.3s;
 }
 
 
